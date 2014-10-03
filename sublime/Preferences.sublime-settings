@@ -1,0 +1,41 @@
+{
+	"auto_close_tags": false,
+	"auto_complete": false,
+	"bold_folder_labels": true,
+	"caret_extra_width": 2,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/PlasticCodeWrap (SL).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.sublime-*"
+	],
+	"folder_exclude_patterns":
+	[
+		"__pycache__",
+		".git"
+	],
+	"font_size": 10,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"match_brackets_angle": true,
+	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		90,
+		72
+	],
+	"tab_size": 4,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_whitespace_on_save": true,
+	"word_wrap": true
+}

@@ -1,0 +1,31 @@
+background        no
+out_to_console 	  yes
+out_to_x	  no
+update_interval	  1
+total_run_times	  0
+short_units	  yes
+pad_percents	  3
+
+override_utf8_locale yes
+
+TEXT
+,[
+#Shows current user
+  {"full_text": " USR [${exec whoami}] ", "color":"\#6F3BFF"},
+#Shows uploadspeed
+  {"full_text": " ▲ [${upspeedf eth0}] ", "color":"\#00fff2"},
+#Shows downloadspeed
+  {"full_text": " ▼ [${downspeedf eth0}] ", "color":"\#00fff2"},
+#Shows current memory usage with a bar
+  {"full_text": " MEM [$membar] ", "color":"\#00A9B5"},
+#Shows current CPU usage with a bar
+  {"full_text": " CPU [$cpubar] ", "color":"\#00A9B5"},
+#Show battery stats
+  {"full_text": " + [${battery_bar 1, 10}]${battery_short} ","color":"\#33CC99"},
+#Shows upime
+  {"full_text": " ↑ [${uptime}] ","color": "\#33CC99"},
+#Shows time
+  {"full_text": " [${time %a %d %b} ${time %H:%M:%S}] ","color": "\#2fdc57"}
+]
+
+#See 
